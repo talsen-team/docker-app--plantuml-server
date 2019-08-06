@@ -7,6 +7,9 @@
 !docker/
 !docker/server--plantuml-server/
 !docker/server--plantuml-server/default.docker
+!docker-compose/
+!docker-compose/server--plantuml-server/
+!docker-compose/server--plantuml-server/default.docker-compose
 !.gitignore
 !.gitmodules
 !LICENCE

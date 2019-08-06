@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  server--plantuml-server:
+    build:
+      context:      './../../docker/server--plantuml-server'
+      dockerfile:   'default.docker'
+    container_name: 'server--plantuml-server'
+    image:          'talsen-team/docker-plantuml-server:v2019.08.06'
+    ports:
+      -             '80:80'
+    restart:        'no'
