@@ -4,6 +4,9 @@
 !.vscode/tasks.json
 !bash-commands
 !bash-util
+!docker/
+!docker/server--plantuml-server/
+!docker/server--plantuml-server/default.docker
 !.gitignore
 !.gitmodules
 !LICENCE
