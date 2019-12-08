@@ -6,7 +6,13 @@ services:
       context:      './../../docker/server--plantuml-server'
       dockerfile:   'default.docker'
     container_name: 'server--plantuml-server'
-    image:          'talsenteam/docker-plantuml-server:v2019.08.06'
+    deploy:
+      resources:
+        limits:
+          memory:     '768M'
+        reservations:
+          memory:     '256M'
+    image:          'talsenteam/docker-plantuml-server:v2019.12.08'
     ports:
       -             '80:8080'
     restart:        'no'
