@@ -1,1 +1,1 @@
-FROM plantuml/plantuml-server:tomcat
+FROM plantuml/plantuml-server:tomcat-v1.2020.14
