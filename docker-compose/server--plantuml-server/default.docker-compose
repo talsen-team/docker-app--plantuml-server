@@ -12,7 +12,7 @@ services:
           memory:     '768M'
         reservations:
           memory:     '256M'
-    image:          'talsenteam/docker-plantuml-server:v1.2020.14'
+    image:          'talsenteam/docker-plantuml-server:v1.2021.2'
     ports:
       -             '80:8080'
     restart:        'no'
